@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fundo claro */
+}
+
+header {
+    background-color: #4CAF50; /* Cor do cabeçalho */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+ol {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0;
+}
+
+ol li {
+    display: inline; /* Itens em linha */
+    margin: 0 1em; /* Espaçamento entre itens */
+}
+
+ol li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+main {
+    padding: 2em; /* Espaçamento no conteúdo principal */
+}
+
+img {
+    display: block; /* Faz as imagens ficarem em linhas separadas */
+    margin: 1em auto; /* Espaçamento vertical e centraliza */
+    max-width: 100%; /* Responsividade */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+footer {
+    background-color: #333; /* Cor do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 1em 0; /* Espaçamento no rodapé */
+}
+
+.assinatura {
+    margin-top: 1em; /* Espaço acima da assinatura */
+    font-style: italic; /* Itálico na assinatura */
+}
